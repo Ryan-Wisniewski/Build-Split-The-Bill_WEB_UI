@@ -36,8 +36,6 @@ class PersonFactory {
 
         let title = this.constructElement(contentDiv, "h2", data.name, []);
         this.constructElement(title, "h3", data.role, []);
-        this.constructElement(title, "i", "", ["fab", "fa-github"]);
-        this.constructElement(title, "i", "", ["fab", "fa-linkedin"]);
 
         this.constructElement(contentDiv, "p", data.about, []);
 
